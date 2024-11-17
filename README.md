@@ -46,7 +46,12 @@ Tech Stack used to develop FashionStore:
 
 ## 4. Setup Locally
 
-Clone the repo `git clone "https://github.com/stealthwhizz/FashionFoward"
+Clone the repo 
+``` 
+`git clone 
+"https://github.com/stealthwhizz/FashionFoward"
+```
+
 ### Frontend:
 1. Open Project in Terminal `cd frontend`
 2. Install Dependencies `npm install --legacy-peer-deps`
