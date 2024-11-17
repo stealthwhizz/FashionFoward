@@ -27,7 +27,7 @@ app.use(cors(corsOptions));
 const PORT = process.env.PORT || 4000
 
 //Database connection
-const url = 'mongodb+srv://stealthwhiz:<imAmogh@0311>@fashionforward.zp4ni.mongodb.net/?retryWrites=true&w=majority&appName=FashionForward'
+const url = 'mongodb+srv://stealthwhiz:imAmogh@0311@fashionforward.zp4ni.mongodb.net/?retryWrites=true&w=majority&appName=FashionForward'
 mongoose.connect(url, {
     useNewUrlParser: true,
     useCreateIndex: true,
