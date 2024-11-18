@@ -48,7 +48,7 @@ Tech Stack used to develop FashionStore:
 
 Clone the repo 
 ``` 
-git clone "https://github.com/stealthwhizz/FashionFoward"
+git clone "https://github.com/devPagma/FashionFoward"
 ```
 
 ### Frontend:
