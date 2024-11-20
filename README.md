@@ -1,8 +1,8 @@
-# FashionStore - Elevate Your Style with FashionStore!
+# FashionForward - Elevate Your Style with FashionStore!
 
 ## 1. Introduction
 
-**Fashion Store** is a Full Stack ECommerce App Built with Reactjs, Nodejs, Express and  MongoDB (MERN Stack)
+**Fashion Forward** is a Full Stack ECommerce App Built with Reactjs, Nodejs, Express and  MongoDB (MERN Stack)
 
 ## 2. Features
 
@@ -46,7 +46,11 @@ Tech Stack used to develop FashionStore:
 
 ## 4. Setup Locally
 
-Clone the repo `git clone https://github.com/Ayush-Bulbule/FashionStore/`
+Clone the repo 
+``` 
+git clone "https://github.com/devPagma/FashionFoward"
+```
+
 ### Frontend:
 1. Open Project in Terminal `cd frontend`
 2. Install Dependencies `npm install --legacy-peer-deps`
