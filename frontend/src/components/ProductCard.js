@@ -9,6 +9,7 @@ const ProductCard = ({ product }) => {
 
             <div className="card product-card h-100">
                 <div className="product-img-box d-flex align-items-center justify-content-center" style={{ height: 210 + "px" }} >
+                    {console.log(`${process.env.REACT_APP_API_KEY}/${product.image}`)}
                     <img src={`${process.env.REACT_APP_API_KEY}/${product.image}`} className="product-img img-fluid" alt="ProductImage" style={{ height: 180 + "px" }} />
                 </div>
                 <div className="card-body product-info">
