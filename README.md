@@ -64,7 +64,3 @@ git clone "https://github.com/devPagma/FashionFoward"
 3. Add Database URL open `server.js` and change mongodb url
 4. Run Backend `npm run dev`
 
-
-
-
-
