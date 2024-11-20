@@ -1,14 +1,32 @@
-import React from 'react'
-import Products from '../components/Products'
-import Slider from '../components/Slider'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const Home = () => {
-    return (
-        <div className='pt-5'>
-            <Slider />
-            <Products />
-        </div>
-    )
-}
+  const [products, setProducts] = useState([]);
 
-export default Home
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get('http://localhost:4000/api/products');
+        setProducts(response.data);
+      } catch (error) {
+        console.error('Error fetching products', error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  return (
+    <div>
+      {products.map(product => (
+        <div key={product._id}>
+          <h3>{product.name}</h3>
+          <p>{product.description}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Home;

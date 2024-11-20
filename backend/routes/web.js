@@ -19,6 +19,9 @@ function initRoutes(app) {
 
     //Get Products
     app.get('/api', homeController().index);
+    app.get('/ping', async (req, resp) => {
+        resp.send('pong');
+    })
     //Get Particular product
     app.get('/api/product/:id', homeController().singleproduct);
     //Get Products By Cate
